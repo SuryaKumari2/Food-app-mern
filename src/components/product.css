@@ -1,0 +1,70 @@
+
+.card img{
+    height: 40vh;
+}
+.titleimg{
+    height: 90vh;
+}
+.gallery img{
+    height: 35vh;
+    
+}
+.cart-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .cart-btn.in-cart {
+    background-color: #dc3545;
+  }
+  
+  .cart-btn:hover {
+    opacity: 0.9;
+  }
+  
+ 
+@media (max-width: 576px) {
+  .gallery img{
+    height: 20vh;
+  }
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar {
+  padding: 1rem; 
+}
+
+.navbar .fs-3 {
+  font-size: 1.5rem; 
+}
+
+.text {
+  font-size: 1.5rem; 
+}
+
+@media (min-width: 768px) {
+  .text {
+    font-size: 2rem; 
+  }
+
+  .navbar .fs-3 {
+    font-size: 2rem; 
+  }
+}
+
+@media (min-width: 992px) {
+  .text {
+    font-size: 2.5rem; 
+  }
+
+  .navbar .fs-3 {
+    font-size: 2.5rem; 
+  }
+}

@@ -1,0 +1,21 @@
+.carousel {
+    height: 80vh;
+    margin: 50px auto; 
+    width: 70%;
+  }
+  
+  .carousel-inner {
+    height: 100%;
+  }
+  
+  .carousel-item img {
+    height: 100%; 
+    object-fit: cover; 
+  }
+
+   
+@media (max-width: 576px) {
+  .carousel-control-prev, .carousel-control-next {
+    width: 5%; 
+  }
+}
